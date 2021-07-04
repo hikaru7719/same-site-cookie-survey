@@ -35,4 +35,6 @@ mkcert "*.test.local"
 
 6. アプリケーションの起動
 
+```
 docker-compose up
+```
