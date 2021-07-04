@@ -1,0 +1,6 @@
+FROM node:14
+WORKDIR /frontend/app
+COPY ./client .
+RUN yarn install
+RUN yarn build
+CMD ["yarn", "start"]

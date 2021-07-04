@@ -1,0 +1,26 @@
+version: "3"
+services:
+  server-nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.server-nginx
+    ports:
+      - 8081:443
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    ports:
+      - 8080
+  client-nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.client-nginx
+    ports:
+      - 443:443
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    ports:
+      - 3000

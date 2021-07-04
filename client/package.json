@@ -1,0 +1,25 @@
+{
+  "name": "same-site-cookie-servey-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hikaru Miyahara",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
